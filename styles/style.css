@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Jost, sans-serif;
+}
+
+body {
+  background: url(/images/BG.png);
+  font-family: Jost, sans-serif;
+  color: #473525E5 !important;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.content {
+  margin: 2px 10px;
+}
+
+button {
+  font-weight: 600;
+  background: transparent;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.65);
+  border: 1px solid #000000C7;
+  border-radius: 10px;
+}
+
+button:hover {
+  border-radius: 20px;
+  transition: border 1s ease-in;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1px 80px;
+}
+
+.header-left-setion {
+  width: 100px;
+}
+
+.header-middle-setion a {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.first-body-section {
+  display: flex;
+  align-items: center;
+  margin: 40px 20px;
+  justify-content: center;
+}
+
+.left-text-section {
+  margin: 10px 40px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.text .big-text {
+  font-size: 55px;
+  font-weight: 700;
+  width: 50rem;
+  color: #473525E5 !important;
+}
+
+.text p {
+  padding: 15px 1px;
+  font-size: 18px;
+}
+
+.view {
+  color: white;
+  background: rgba(71, 53, 37, 0.78);
+  margin-right: 20px;
+}
+
+.orange-image {
+  width: 400px;
+}
+
+.second-body-section {
+  display: flex;
+  align-items: center;
+  margin: 100px 70px;
+}
+
+.fruits-images {
+  display: flex;
+  width: 600px;
+  margin-left: 1px;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.fruits-images .Pineapple {
+  margin-right: 130px;
+}
+
+.left {
+  color: #473525E5 !important;
+  margin-right: 150px;
+}
+
+.image-text {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.GRAPES {
+  width: 215px;
+  position: absolute;
+  top: 105%;
+  left: 64%;
+}
+
+.lower-text {
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.third-body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.third-body-section-text {
+  margin-left: -55%;
+}
+
+.third-body-section-images {
+  display: flex;
+  width: 900px;
+  margin-top: 65px;
+}
+
+.third-body-section-images div {
+  padding: 11px 5px;
+}
+
+.view-all {
+  margin-right: -55%;
+}
+
+.fourth-body-section {
+  display: grid;
+  grid-template-columns: 448px 300px 180px;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.CONTACT-US-text,
+.Sitemap-text {
+  margin-bottom: 18px;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 280px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+}
+
+::placeholder {
+  color: #00000080;
+  font-size: 14.5px;
+  padding: 15px;
+}
+
+.sub {
+  background: #FFA500;
+  margin-top: 40px;
+  border: none;
+}
+
+.fourth-body-para {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Sitemap-links p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.Sitemap-links p:hover {
+  cursor: pointer;
+}
+
+.vector {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.Phone-Number,
+.Email {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+
+.footer-icons {
+  padding-left: 18%;
+  width: 30%;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-icon {
+  width: 30px;
+  background-color: white;
+  padding: 8px 5px;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.facebook {
+  background: transparent;
+}
+
+.footer-text {
+  font-size: 20px;
+  color: #555555;
+}
